@@ -266,7 +266,7 @@ Para mejorar el rendimiento y monitoreo en producción:
 ## Despliegue
 
 
-El proyecto está desplegado en Vercel y puede ser accedido en [https://fintech-pro.vercel.app](https://fintech-pro.vercel.app)
+El proyecto está desplegado en Vercel y puede ser accedido en [https://test-bprosys-fintech.vercel.app/](https://test-bprosys-fintech.vercel.app/)
 
   
 
