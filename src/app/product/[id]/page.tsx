@@ -5,15 +5,15 @@ import Footer from "@/components/footer"
 import ProductDetail from "@/components/product-detail"
 import BackButton from "@/components/ui-styled/back-button"
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
   const products = getProducts()
 
   return products.map((product) => ({
     id: product.id,
   }))
 }
-
-export default function ProductPage({ params }: { params: { id: string } }) {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export default function ProductPage({ params }: any) {
   const product = getProductById(params.id)
 
   if (!product) {
