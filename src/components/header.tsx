@@ -1,11 +1,9 @@
 "use client"
 
-import { useState } from "react"
-import Link from "next/link"
 import { Menu, X } from "lucide-react"
+import Link from "next/link"
+import { useState } from "react"
 import { Logo } from "./ui-styled/logo"
-import { Button } from "./ui/button"
-import { ModeToggle } from "./mode-toggle"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
